@@ -1,0 +1,8 @@
+FROM mongo:latest
+
+LABEL AUTHOR="minkm"
+LABEL EMAIL="3573672188@qq.com"
+
+EXPOSE 27017
+
+

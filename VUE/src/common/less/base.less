@@ -1,0 +1,45 @@
+.mjw-flex-row {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.mjw-flex-row-rev {
+    display: flex;
+    flex-direction: row-reverse;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.mjw-flex-column {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.mjw-absolute {
+    position: absolute;
+}
+
+.mjw-relative {
+    position: relative;
+}
+
+.text-center(@lineHeight, @color) {
+    text-align: center;
+    line-height: @lineHeight;
+    color: @color;
+}
+
+.mflex(@direction) {
+    display: flex;
+    flex-direction: @direction;
+    flex-wrap: wrap;
+}
+
+.m-bg-leave {
+    width: 100%;
+    transform: scale3d(1, 1, 1);
+}

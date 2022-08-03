@@ -1,0 +1,7 @@
+FROM redis:latest
+
+LABEL AUTHOR="minkm"
+
+LABEL EMAIL="3573672188@qq.com"
+
+EXPOSE 6379

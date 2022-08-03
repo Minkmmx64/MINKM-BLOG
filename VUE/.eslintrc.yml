@@ -1,0 +1,62 @@
+env:
+  browser: true
+  es2021: true
+extends: [
+   plugin:vue/vue3-essential,
+    
+  ]
+parserOptions:
+  ecmaVersion: 13
+  parser: '@typescript-eslint/parser'
+  sourceType: module
+plugins:
+  - vue
+  - '@typescript-eslint'
+rules: {
+  arrow-spacing: [
+    2,
+    {
+      before: true,
+      after: true
+    }
+  ],
+  eqeqeq: [
+    2,
+    "allow-null"
+  ],
+  no-extra-parens: [
+    2,
+    "functions"
+  ],
+  no-irregular-whitespace: 2,
+  no-multiple-empty-lines: [
+    2,
+    {
+      max: 2
+    }
+  ],
+  no-unexpected-multiline: 2,
+  no-unreachable: 2,
+  no-unused-vars: [
+    0,
+    {
+      vars: "all",
+      args: "after-used"
+    }
+  ],
+  semi: [
+    2,
+    "always"
+  ],
+  space-infix-ops: 2,
+  space-unary-ops: [
+    2,
+    {
+      words: true,
+      nonwords: false
+    }
+  ],
+  linebreak-style: [2, "windows"],
+  key-spacing: [2, { "beforeColon": false, "afterColon": true }],
+
+}

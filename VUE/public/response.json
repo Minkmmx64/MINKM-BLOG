@@ -1,0 +1,79 @@
+{
+    "status": true,
+    "code": 200,
+    "message": "success",
+    "data": {
+        "list": [
+            {
+                "id": 4,
+                "name": "\u624b\u673a\u901a\u8baf",
+                "parent_id": 2,
+                "sequence": 1,
+                "state": 1,
+                "state_text": "\u542f\u7528",
+                "created_at": "2021-12-25 11:11:49",
+                "updated_at": "2021-12-25 11:11:49"
+            },
+            {
+                "id": 7,
+                "name": "\u624b\u673a",
+                "parent_id": 4,
+                "sequence": 1,
+                "state": 1,
+                "state_text": "\u542f\u7528",
+                "created_at": "2021-12-27 14:00:00",
+                "updated_at": "2021-12-27 14:00:00"
+            },
+            {
+                "id": 2,
+                "name": "\u624b\u673a \/ \u8fd0\u8425\u5546 \/ \u6570\u7801",
+                "parent_id": 0,
+                "sequence": 2,
+                "state": 1,
+                "state_text": "\u542f\u7528",
+                "created_at": "2021-12-25 09:28:13",
+                "updated_at": "2021-12-25 09:28:13"
+            },
+            {
+                "id": 5,
+                "name": "\u8fd0\u8425\u5546",
+                "parent_id": 2,
+                "sequence": 2,
+                "state": 1,
+                "state_text": "\u542f\u7528",
+                "created_at": "2021-12-25 11:11:56",
+                "updated_at": "2021-12-25 11:11:56"
+            },
+            {
+                "id": 3,
+                "name": "\u7537\u978b \/ \u6237\u5916 \/ \u8fd0\u52a8",
+                "parent_id": 0,
+                "sequence": 3,
+                "state": 1,
+                "state_text": "\u542f\u7528",
+                "created_at": "2021-12-25 11:10:52",
+                "updated_at": "2021-12-25 11:10:52"
+            },
+            {
+                "id": 6,
+                "name": "\u624b\u673a\u914d\u4ef6",
+                "parent_id": 2,
+                "sequence": 3,
+                "state": 1,
+                "state_text": "\u542f\u7528",
+                "created_at": "2021-12-25 11:12:06",
+                "updated_at": "2021-12-25 11:12:06"
+            }
+        ],
+        "meta": {
+            "pagination": {
+                "total": 6,
+                "count": 6,
+                "per_page": 15,
+                "current_page": 1,
+                "total_pages": 1,
+                "links": {}
+            }
+        }
+    }
+}
